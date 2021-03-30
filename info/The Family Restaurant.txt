@@ -1,0 +1,47 @@
+navBar
+*******
+nav.nabBar> 
+
+	div.nav-center>
+	
+		div.nav-header> (div.nav-text> h2 + span) + (button.nav-toggle#nav-toggle>icon)
+
+		ul.nav-links.show-links#nav-links> 5* Li> a.nav-link.scroll-link
+
+		ul.nav-icons> 3* li> a.nav-icon
+
+...........................................................................................
+
+hero
+*****
+
+div.hero>
+	div.hero-title>
+ 
+		h1.hero-h1.upper + h1.hero-h1.bottom + a.btn-2.hero-link + a.btn.1.hero-link
+			 
+...........................................................................................
+
+features
+********
+
+section.section#features> 
+
+	div.section-center> 
+			
+		4* article.single-feature> 
+
+				span.feature-icon>icon + h4.feature-title + p.feature-text
+
+...........................................................................................
+
+gallery
+********
+
+section> 
+	
+	div.gallery-center>
+
+		8* article.gallery-img-container> 
+				
+					img.gallery-img		
