@@ -186,14 +186,6 @@ p {
   margin-bottom: 4rem;
 }
 
-.section-title h2{
-  text-transform: uppercase;
-}
-
-.section-title span{
-  color: var(--clr-orange-3);
-}
-
 .section-center{
   width: 90vw;
   margin: 0 auto;
@@ -509,7 +501,7 @@ p {
   margin-right: auto;
   margin-bottom: 2rem;
   border-bottom: none;
-  border: 1px solid var(--clr-orange-2);
+  border: 1.5px solid var(--clr-orange-2);
 }
 
 .section-title p{
@@ -602,6 +594,69 @@ p {
 /* ********************* */
 /* how it works */
 /* ********************* */
+
+
+.singing-img, .signing-info{
+  padding: 2rem 0;
+}
+
+.signing-picture-container{
+  background: var(--clr-orange-2);
+  max-width: 20rem;
+}
+
+
+.signing-text{
+  color: var(--clr-black-3);
+  float: left;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.signing-text-no{
+  border: .1rem solid var(--clr-orange-2);
+  display: inline-block;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.signing-text-p{
+  word-spacing: var(--spacing);
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+
+.signing-link-img{
+  width: 40%;
+  float: left;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+
+
+@media screen and (min-width: 992px){
+  .signing-img, .signing-info{
+    float: left;
+    width: 40%;
+  }
+
+  .signing-text{
+  color: var(--clr-black-3);
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+}
+
+
 
 
 /* ********************* */

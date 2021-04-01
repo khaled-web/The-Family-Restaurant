@@ -27,11 +27,9 @@ features
 
 section.section#features> 
 
-	div.section-center> 
-			
-		4* article.single-feature> 
+	div.section-title.features-title> h2.feature-h2 + hr + p		
 
-				span.feature-icon>icon + h4.feature-title + p.feature-text
+	div.section-center> 4* article.single-feature> span.feature-icon>icon + h4.feature-title + p.feature-text
 
 ...........................................................................................
 
@@ -44,4 +42,22 @@ section>
 
 		8* article.gallery-img-container> 
 				
-					img.gallery-img		
+					img.gallery-img	
+
+...........................................................................................
+
+howItWorks
+***********
+
+section.section#howItWorks> 
+
+	div.section-title> h2 + hr
+
+	div.section-center.signing-center> 
+				
+				article.signing-img> div.signing-picture-container> img.signing-picture				
+
+				articel.signing-info> 3* (div.signing-text> p.signing-text-no + p.signing-text-p)
+				
+				
+	
