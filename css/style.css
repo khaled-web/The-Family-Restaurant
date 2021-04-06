@@ -22,6 +22,7 @@
   --clr-white-4: #fff;
   --clr-white-5: #faf3e0;
   --clr-white-6: #f8f5f1;
+  --clr-white-7: #fdf1d6;
   /* black primary color */
   --clr-black-1: #373331;
   --clr-black-2: #000;
@@ -595,22 +596,13 @@ p {
 /* how it works */
 /* ********************* */
 
-
 .singing-img, .signing-info{
   padding: 2rem 0;
 }
 
 .signing-picture-container{
   background: var(--clr-orange-2);
-  max-width: 20rem;
-}
-
-
-.signing-text{
-  color: var(--clr-black-3);
-  float: left;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
+  max-width: 25rem;
 }
 
 .signing-text-no{
@@ -624,25 +616,31 @@ p {
   margin-right: 2rem;
 }
 
+.signing-text{
+  color: var(--clr-black-3);
+  float: left;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+
 .signing-text-p{
   word-spacing: var(--spacing);
   line-height: 2rem;
   font-size: 1.5rem;
+  transition: var(--transition);
 }
 
-
-.signing-link-img{
-  width: 40%;
-  float: left;
-  margin-right: 3rem;
-  margin-top: 3rem;
+.signing-text-p:hover{
+  color: var(--clr-orange-2)  ;
 }
+
 
 
 @media screen and (min-width: 992px){
-  .signing-img, .signing-info{
-    float: left;
-    width: 40%;
+  .signing-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .signing-text{
@@ -652,7 +650,7 @@ p {
   justify-content: flex-end;
   margin-bottom: 1rem;
   margin-top: 4rem;
-}
+} 
 
 }
 
@@ -662,6 +660,75 @@ p {
 /* ********************* */
 /* cities */
 /* ********************* */
+.cities{
+  background: var(--clr-white-5);
+}
+
+.cities-center{
+  width: 80vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+}
+
+.city{
+  /* border: 1px solid var(--clr-orange-1); */
+  margin-bottom: 3rem;
+  transition: var(--transition);
+  background: var(--clr-white-1);
+  box-shadow: var(--light-shadow);
+}
+
+.city:hover{
+  box-shadow: var(--dark-shadow);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.city img{
+  min-height: 16rem;
+  margin-bottom: 1rem;
+}
+
+.city-info{
+  padding: 1rem;
+}
+
+.city-info h3{
+  color: var(--clr-black-1);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  /* font-weight: 300; */
+  letter-spacing: var(--spacing);
+}
+
+.city-details{
+  display: grid;
+  grid-template-columns: 3rem 15rem;
+  column-gap: 1rem;
+}
+
+.city-details span{
+  color: var(--clr-orange-3);
+  font-size: 1.5rem;
+}
+
+.city-details p{
+  color: var(--clr-black-3);
+  font-size: 1.2rem;
+}
+
+.cities-center{
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+}
+
+.city{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto auto;
+}
+
 
 
 /* ********************* */

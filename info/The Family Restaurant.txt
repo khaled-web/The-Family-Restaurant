@@ -59,5 +59,15 @@ section.section#howItWorks>
 
 				articel.signing-info> 3* (div.signing-text> p.signing-text-no + p.signing-text-p)
 				
+...........................................................................................
+cities
+***********
+section.section.cities#cities> 
+
+	div.section-title> h2 + hr
+
+	div.cities-center> 4* article.city> 
 				
+				img + (div.city-info> h3 + 2* (div.city-details>(span>icon) + p))
+			
 	
