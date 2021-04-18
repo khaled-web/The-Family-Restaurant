@@ -60,6 +60,7 @@ section.section#howItWorks>
 				articel.signing-info> 3* (div.signing-text> p.signing-text-no + p.signing-text-p)
 				
 ...........................................................................................
+
 cities
 ***********
 section.section.cities#cities> 
@@ -69,5 +70,18 @@ section.section.cities#cities>
 	div.cities-center> 4* article.city> 
 				
 				img + (div.city-info> h3 + 2* (div.city-details>(span>icon) + p))
+
+...........................................................................................
+
+customer opinion
+*****************
+section.section.customer>
+
+	div.section-title.customer-title> h2.customer-h2 + hr
+
+	div.section-center.customer-center> 3* article.single-customer> span.customer-icon + p.customer-p + (div.customer-opinion> img.customer-opinion-img + p.img-customer-opinion-p)
+
+					     
+	
 			
 	

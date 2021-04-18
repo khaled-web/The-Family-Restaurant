@@ -14,7 +14,7 @@
   --clr-orange-2: #ffb228;
   --clr-orange-3: #f45905;
   --clr-orange-4: #c06014;
-  
+
   /* white primary color */
   --clr-white-1: #fafafa;
   --clr-white-2: #fbf9fa;
@@ -336,7 +336,6 @@ p {
   color: var(--clr-orange-3);
   cursor: pointer;
   font-size: 1rem;
-  
 }
 
 .nav-link:hover{
@@ -361,7 +360,12 @@ p {
   .nav-bar{
     padding: 1rem 2rem;
   }
-  
+
+  .nav-text{
+    display: flex;
+    align-items: center;
+  }
+
   .nav-center{
     display: flex;
     justify-content: space-between;
@@ -380,11 +384,12 @@ p {
 
   .nav-links{
     display: flex;
-    height: auto;
+    align-items: center;
+    height: 3rem;
   }
 
   .nav-link{
-    padding: 0 0;
+    padding: 1rem 0;
     margin-right: 0.7rem;
     font-weight: 300;
   }
@@ -420,7 +425,7 @@ p {
 
   .nav-icon-instagram:hover{
     color: var(--clr-instagram);
-  } 
+  }
 }
 
 /* ********************* */
@@ -650,7 +655,7 @@ p {
   justify-content: flex-end;
   margin-bottom: 1rem;
   margin-top: 4rem;
-} 
+}
 
 }
 
@@ -703,13 +708,13 @@ p {
 
 .city-details{
   display: grid;
-  grid-template-columns: 3rem 15rem;
-  column-gap: 1rem;
+  grid-template-columns: 2.5rem 15rem;
+  column-gap: 0rem;
 }
 
 .city-details span{
   color: var(--clr-orange-3);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .city-details p{
@@ -734,7 +739,61 @@ p {
 /* ********************* */
 /* customer testimonials */
 /* ********************* */
+.customer{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/back-customers.jpg) center/cover no-repeat fixed;;
+}
 
+.customer-title h2{
+  color: var(--clr-white-1);
+}
+
+.customer-title{
+  margin-bottom: 3rem;
+}
+
+.customer-center{
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+}
+
+.single-customer{
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.customer-icon{
+  color: var(--clr-white-1);
+  font-size: 1.5rem;
+}
+
+.customer-p{
+  color: var(--clr-white-1);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 20rem;
+}
+
+.customer-opinion{
+  display: flex;
+  align-items: center;
+}
+
+.customer-opinion-img{
+  border-radius: 50%;
+  width: 5rem;
+  margin-right: 0.8rem;
+}
+
+.customer-opinion-p{
+  color: var(--clr-white-1);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
 
 /* ********************* */
 /* sign up and pricing plans */
@@ -744,5 +803,3 @@ p {
 /* ********************* */
 /* footer */
 /* ********************* */
-
-
