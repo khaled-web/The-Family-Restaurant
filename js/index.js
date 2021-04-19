@@ -21,6 +21,21 @@ navBtn.addEventListener("click", () => {
 
 // document.querySelector('.btn-submit').addEventListener('click', clearField);
 
+// ********** proposals-part ***********
+
+document.getElementById('proposal-btn-1').addEventListener('click', (e) => {
+ e.preventDefault();
+});
+
+document.getElementById('proposal-btn-2').addEventListener('click', (e) => {
+ e.preventDefault();
+});
+
+document.getElementById('proposal-btn-3').addEventListener('click', (e) => {
+ e.preventDefault();
+});
+
+
 // ********** smooth scroll ************
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");
