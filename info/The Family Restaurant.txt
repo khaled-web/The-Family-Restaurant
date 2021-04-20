@@ -82,6 +82,46 @@ section.section.customer>
 	div.section-center.customer-center> 3* article.single-customer> span.customer-icon + p.customer-p + (div.customer-opinion> img.customer-opinion-img + p.img-customer-opinion-p)
 
 					     
+
+...........................................................................................
+
+Proposals
+*****************
+section.section.proposal>
+
+	div.section-title.proposal-title> h2.proposal-h2 + hr
+
+	div.section-center.proposal-center> 
 	
+		3* article.single-proposal>
+
+			div.proposal-type> h3 + (p+span) + p
+
+			div.proposal-features> 3* div.proposal-features-single(span(icon) + p)
+	
+			div.proposal-btn> a.btn-1 or -2
+
+...........................................................................................
+
+booking
+*****************
+section.section.booking#signUp>
+
+	div.section-title.booking-title> h2.booking-h2 + hr
+
+	div.section-center.booking-center> form.booking-form>
+	
+						div.booking-name> (div.booking-name-label> label) + (div.booking-name-input>input)	
+
+						div.booking-email> (div.booking-email-label> label) + (div.booking-email-input>input)
+
+						div.booking-findUs> (div.booking-findUs-label> label) + (div.booking-findUs-select>option)
+
+						div.booking-newsLetter> (div.booking-newsLetter-label> label) + (div.booking-newsLetter-input>input)
+
+						div.booking-dropUs> (div.booking-dropUs-label> label) + (div.booking-dropUs-input>textArea)
+
+						div.booking-btn> a.btn-1#booking-btn-1
+				
 			
 	

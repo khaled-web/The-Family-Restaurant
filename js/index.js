@@ -35,7 +35,10 @@ document.getElementById('proposal-btn-3').addEventListener('click', (e) => {
  e.preventDefault();
 });
 
-
+// ********** booking-part ***********
+document.getElementById('booking-btn-1').addEventListener('click', (e) => {
+ e.preventDefault();
+})
 // ********** smooth scroll ************
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");

@@ -835,7 +835,7 @@ p {
 
 .proposal-type{
   padding: 1rem;
-  border-bottom: 2px solid var(--clr-grey-10);
+  border-bottom: 2px solid var(--clr-white-7);
 }
 
 .proposal-type-h3{
@@ -868,7 +868,7 @@ p {
 
 .proposal-features{
   padding: 1rem;
-  border-bottom: 2px solid var(--clr-grey-10);
+  border-bottom: 2px solid var(--clr-white-7);
 }
 
 .proposal-features-single{
@@ -898,8 +898,161 @@ p {
 
 
 /* ********************* */
-/* sign up*/
+/* booking*/
 /* ********************* */
+
+.booking-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: translateX(-15rem); */
+  /* background: var(--clr-white-1); */
+}
+
+.booking-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.booking-name-label{
+  color: var(--clr-black-2);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-right: 10rem;
+}
+
+.booking-name-input input{
+  height: 2.5rem;
+  width: 30rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.booking-name-input input::placeholder{
+  color: var(--clr-white-5);
+}
+
+.booking-email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.booking-email-label{
+  color: var(--clr-black-2);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-right: 10rem;
+}
+
+.booking-email-input input{
+  height: 2.5rem;
+  width: 30rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--clr-black-2);
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.booking-email-input input::placeholder{
+  color: var(--clr-white-5);
+}
+
+.booking-findUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.booking-findUs-label{
+  color: var(--clr-black-2);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-right: 1rem;
+}
+
+.booking-findUs-select select{
+  height: 2.5rem;
+  width: 30rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--clr-black-2);
+  font-weight: 300;
+  
+}
+
+.booking-newsLetter{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 0rem;
+}
+
+.booking-newsLetter-label{
+  color: var(--clr-black-2);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-right: 7rem;
+}
+
+
+.booking-newsLetter-input input{
+  margin-right: .5rem;
+  cursor: pointer;
+  color: red;
+}
+
+.booking-dropUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.booking-dropUs-label{
+  color: var(--clr-black-2);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-right: 5rem;
+}
+
+.booking-dropUs-input textarea{
+  transform: translateY(2.5rem);
+  border: 2px solid var(--clr-white-7);
+  outline: none;
+}
+
+.booking-dropUs-input textarea::placeholder{
+  color: var(--clr-white-7);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+
+.booking-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
 
 
 /* ********************* */
