@@ -28,6 +28,7 @@
   --clr-black-2: #000;
   --clr-black-3: #333;
   --clr-black-4: #63686e;
+  --clr-black-5: #888;
 
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
@@ -728,6 +729,17 @@ p {
   font-size: 1.2rem;
 }
 
+.city-details a{
+  color: var(--clr-orange-2);
+  font-size: 1.2rem;
+  text-decoration: underline;
+  transition: var(--transition);
+}
+
+.city-details a:hover{
+  text-decoration: none;
+}
+
 .cities-center{
   display: grid;
   grid-column-gap: 2rem;
@@ -1038,6 +1050,7 @@ p {
   transform: translateY(2.5rem);
   border: 2px solid var(--clr-white-7);
   outline: none;
+  width: 30rem;
 }
 
 .booking-dropUs-input textarea::placeholder{
@@ -1054,7 +1067,96 @@ p {
   margin-top: 3rem;
 }
 
+@media screen and (max-width: 700px){
+  .booking-name-input input{
+  height: 2.5rem;
+  width: 15rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+  .booking-email-input input{
+  height: 2.5rem;
+  width: 15rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+  .booking-findUs-select select{
+  height: 2.5rem;
+  width: 15rem;
+  outline: none;
+  border: 2px solid var(--clr-white-7);
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.booking-newsLetter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+}
+
+.booking-dropUs-input textarea{
+  transform: translateY(2.5rem);
+  border: 2px solid var(--clr-white-7);
+  outline: none;
+  width: 15rem;
+}
+
+}
 
 /* ********************* */
 /* footer */
 /* ********************* */
+.footer{
+  background: var(--clr-black-3);
+  padding: 2rem;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+  .footer-icon-twitter,
+  .footer-icon-facebook,
+  .footer-icon-instagram{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    transition: var(--transition);
+    color: var(--clr-black-5);
+  }
+
+  .footer-icon-twitter:hover{
+    color: var(--clr-twitter);
+  }
+
+  .footer-icon-facebook:hover{
+    color: var(--clr-faceBook);
+  }
+
+  .footer-icon-instagram:hover{
+    color: var(--clr-instagram);
+  }
+
+.copyright{
+  color: var(--clr-black-5);
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+}

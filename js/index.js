@@ -1,6 +1,6 @@
 // ********** set date ************
-// select span
-// document.getElementById("date").innerHTML = new Date().getFullYear();
+
+document.getElementById("date").innerHTML = new Date().getFullYear();
 
 // ********** nav toggle ************
 // select button and links
@@ -35,6 +35,18 @@ document.getElementById('proposal-btn-3').addEventListener('click', (e) => {
  e.preventDefault();
 });
 
+// ********** cities-part ***********
+document.getElementById('city-btn-1').addEventListener('click', (e) => {
+ e.preventDefault();
+});
+
+document.getElementById('city-btn-2').addEventListener('click', (e) => {
+ e.preventDefault();
+});
+
+document.getElementById('city-btn-3').addEventListener('click', (e) => {
+ e.preventDefault();
+});
 // ********** booking-part ***********
 document.getElementById('booking-btn-1').addEventListener('click', (e) => {
  e.preventDefault();
