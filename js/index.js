@@ -23,30 +23,30 @@ navBtn.addEventListener("click", () => {
 
 // ********** proposals-part ***********
 
-document.getElementById('proposal-btn-1').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('proposal-btn-1').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 
-document.getElementById('proposal-btn-2').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('proposal-btn-2').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 
-document.getElementById('proposal-btn-3').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('proposal-btn-3').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 
 // ********** cities-part ***********
-document.getElementById('city-btn-1').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('city-btn-1').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 
-document.getElementById('city-btn-2').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('city-btn-2').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 
-document.getElementById('city-btn-3').addEventListener('click', (e) => {
- e.preventDefault();
-});
+// document.getElementById('city-btn-3').addEventListener('click', (e) => {
+//  e.preventDefault();
+// });
 // ********** booking-part ***********
 document.getElementById('booking-btn-1').addEventListener('click', (e) => {
  e.preventDefault();
