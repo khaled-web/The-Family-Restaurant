@@ -132,3 +132,34 @@ footer.section.footer>
 
 	ul.footer-icons> 3* Li> a.nav-icon
 	p.copyright
+
+...........................................................................................
+
+checkOut
+********
+section.section.checkOut>
+
+	div.section-title.checkOut-title> h2.checkOut-h2 + hr
+	
+	div.wrapper>
+
+		h2 + form>
+
+			h4.ckeckOut-h4 + 
+			
+					div.input-group> 2* div.input-box> input.checkOut-name + icon
+
+					div.input-group> div.input-box> input.checkOut-name + icon
+
+					div.input-group> (div.input-box> h4.check-h4 + 3* input.dob) + (div.input-box>h4.checkOut-h4 + 2* input#bc1.radio + label)
+
+					div.input-group> div.input-box> h4.checkOut-h4 + 2*(input#bc1.radio + (label+span))
+
+					div.input-group> div.input-box> input.checkOut-name + icon
+
+					div.input-group> (div.input-box> input.check-name + icon) + (div.input-box> 2* select)
+
+					div.input-group> div.input-box> button
+			
+
+			
