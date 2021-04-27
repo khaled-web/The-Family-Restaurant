@@ -8,6 +8,6 @@ payNow.addEventListener('click', () => {
  if ((cardNumber.length > 0) && (cvcNumber.length > 0)) {
   swal("Good job!", "The operation is successfully done", "success");
  } else {
-  swal("Oops", "Some thing went wrong", "error");
+  swal("Oops!", "Double Check Your Data.", "error");
  }
 })

@@ -14,6 +14,7 @@ navBtn.addEventListener("click", () => {
 // ********** booking-part ***********
 document.getElementById('booking-btn-1').addEventListener('click', (e) => {
  e.preventDefault();
+ swal("Oops!", "Double Check Your Data.", "error");
 })
 // ********** smooth scroll ************
 // select links

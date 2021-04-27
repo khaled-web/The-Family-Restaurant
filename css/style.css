@@ -908,11 +908,13 @@ p {
 /* ********************* */
 /* booking*/
 /* ********************* */
-
+.booking-form{
+  
+}
 .booking-center{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* transform: translateX(-15rem); */
   /* background: var(--clr-white-1); */
 }
@@ -1007,9 +1009,10 @@ p {
 
 .booking-newsLetter{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   margin-bottom: 0rem;
+  transform: translateX(-12rem);
 }
 
 .booking-newsLetter-label{
@@ -1102,6 +1105,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 0rem;
+  transform: translateX(-4rem);
 }
 
 .booking-dropUs-input textarea{
